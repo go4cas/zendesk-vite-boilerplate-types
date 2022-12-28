@@ -7,6 +7,7 @@ import { Conversation } from './conversation'
 import { TicketEditor } from './ticketeditor'
 import { Form } from './form'
 import { Organization } from '../user/organization'
+import { PostSaveAction } from './postsaveaction'
 import { Priority } from './priority'
 import { SharingAgreement } from './sharingagreement'
 import { Status } from './status'
@@ -34,7 +35,7 @@ export type ticket = {
   id: number
   isNew: boolean
   organization: Organization
-  postSaveAction: string
+  postSaveAction: PostSaveAction
   priority: Priority
   recipient: string
   requester: User
