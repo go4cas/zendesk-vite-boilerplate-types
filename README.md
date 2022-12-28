@@ -1,0 +1,1 @@
+# zendesk-vite-boilerplate-types
